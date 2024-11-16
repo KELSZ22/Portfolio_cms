@@ -15,7 +15,7 @@ function Header (){
 
            </div>
 
-            <img src="/cover2.png" alt="michael_pogi.png" height="500px"/>
+            <img src="/cover2.png" alt="michael_pogi.png" height="400px"/>
 
 
         </div>
