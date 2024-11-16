@@ -5,7 +5,7 @@ import Footer from './Template/Footer.jsx'
 import About from './Contents/About.jsx'
 import Home from './Contents/Home.jsx'
 import Projects from './Contents/Projects.jsx'
-import { BrowserRouter as Router, Route, Routes,useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes,useLocation, HashRouter } from 'react-router-dom';
 
 
     
@@ -19,7 +19,7 @@ function App (){
 <>
 
 
-  <Router>
+  <HashRouter>
     <Navbar/>
     <HeaderWrapper />
 
@@ -30,7 +30,7 @@ function App (){
       <Route path="/project" exact element={<Projects />} />
       <Route path="/contact" exact element={<About />} />
     </Routes>
-  </Router>
+  </HashRouter>
 
   
   <Footer/>
