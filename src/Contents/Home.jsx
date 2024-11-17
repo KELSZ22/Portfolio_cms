@@ -1,4 +1,4 @@
-import Projects from "./Projects.jsx";
+import {Link} from "react-router-dom";
 function Home(){
 
     return (
@@ -31,16 +31,7 @@ function Home(){
                     <h5> HTML,CSS,Javascript </h5>
 
 
-                </div>
-
-                  <div className="projects-card">
-
-                    <img src="about.png" alt="projects.png" height="200px"/>
-
-                    <h4>Web-based Attendance Management System using QR Code</h4>
-
-                    <h5> HTML,CSS,Javascript </h5>
-
+                    <Link to="/project">More</Link>
 
                 </div>
 
@@ -51,6 +42,22 @@ function Home(){
                     <h4>Web-based Attendance Management System using QR Code</h4>
 
                     <h5> HTML,CSS,Javascript </h5>
+                    
+                    <Link to="/project">More</Link>
+
+            
+
+                </div>
+
+                  <div className="projects-card">
+
+                    <img src="about.png" alt="projects.png" height="200px"/>
+
+                    <h4>Web-based Attendance Management System using QR Code</h4>
+
+                    <h5> HTML,CSS,Javascript </h5>
+
+                    <Link to="/project">More</Link>
 
 
                 </div>
@@ -62,6 +69,8 @@ function Home(){
                     <h4>Web-based Attendance Management System using QR Code</h4>
 
                     <h5> HTML,CSS,Javascript </h5>
+                    
+                    <Link to="/project">More</Link>
 
 
                 </div>
