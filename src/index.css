@@ -374,22 +374,61 @@ box-shadow: 5px 20px 50px 10px rgba(67, 0, 61, 0.373);
     max-width: 100%;
     max-height: 100%;
     border-radius: 50px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
 }
 
 .first-column{
-    background-color: rgb(94, 94, 94);
+    background: rgb(132, 81, 98);
+    background: linear-gradient(313deg, rgba(132, 81, 98, 1) 0%, rgba(255, 227, 216, 1) 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 50px 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
+.first-column label{
+    font-size: 2em;
+    color: #29104a;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.personal-details label{
+    font-size: 2em;
+    color: #29104a;
+}
+.personal-details p{
+    font-size: 1.5em;
+    padding: 5px 0;
+}
+
+
 .second-column{
-    background-color: #E3b681;
-    padding: 50px;
+    background-color: #FFE3D8;
+    padding: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
+.second-column label{
 
+    font-size: 2em;
+    color: #29104a;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.second-column p{
+    font-size: 1.5em;
+    padding: 5px 0;
+    text-align: justify;
+
+}
+.second-column ul li{
+margin-left: 50px;
+font-size: 1.5em ;
+}
 
     
 @keyframes fade-in-left {
@@ -501,6 +540,19 @@ box-shadow: 5px 20px 50px 10px rgba(67, 0, 61, 0.373);
     .socials img{
         width:35px;
         height: 35px;
+    }
+
+    .resume-container{
+        grid-template-columns: 375px;
+        margin: 0;
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 50px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+        margin-top: 50px;
+    }
+    .second-column{
+        padding: 10px;
     }
 
 }

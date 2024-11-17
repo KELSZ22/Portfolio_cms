@@ -10,9 +10,9 @@ function Resume() {
             <div className="first-column">
                 <img src="/michaelpogi.png" alt="michaelpogi.png" height="200px"/>
                 <label htmlFor="">Michael Z. Sabino</label>
-
+                
                 <div className="personal-details">
-
+                <hr />
                     <label htmlFor="">Personal Details</label>
                     <p><b>Date of Birth:</b> October 24,2001</p>
                     <p><b>Contact:</b> 0935-869-3624</p>
@@ -88,10 +88,10 @@ function Resume() {
 
                 <hr />
                 <label htmlFor="">Certificates</label>
-                <p><a href="https://drive.google.com/file/d/17FtjcdJMLRzvIXOoW84tvYfH_sBIZV3s/view" target="_blank">Tesda NC III Java Programming (2023)</a></p>
-                <p><a href="https://e-tesda.gov.ph/mod/customcert/my_certificates.php?downloadcert=1&userid=5253035&certificateid=2481" target="_blank">Tesda Developing Designs for User Interface (2024)</a> 
+                <p><a href="https://drive.google.com/file/d/17FtjcdJMLRzvIXOoW84tvYfH_sBIZV3s/view" target="_blank">TESDA NC III Java Programming (2023)</a></p>
+                <p><a href="https://drive.google.com/file/d/1PPe6mGbWgYFXYGVHMySRevQ4ajcX_jVI/view" target="_blank">TESDA Developing Designs for User Interface (2024)</a> 
                 </p>
-                <p><a href="https://e-tesda.gov.ph/mod/customcert/my_certificates.php?downloadcert=1&userid=5253035&certificateid=2480" target="_blank">TESDADeveloping Designs for User Experience (2024)</a>
+                <p><a href="https://drive.google.com/file/d/10mHEXIuHHn4_pHAzfVwFGEfEocv6XNf7/view" target="_blank">TESDA Developing Designs for User Experience (2024)</a>
 
 </p>
 

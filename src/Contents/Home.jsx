@@ -39,9 +39,9 @@ function Home(){
 
                     <img src="about.png" alt="projects.png" height="200px"/>
 
-                    <h4>Web-based Attendance Management System using QR Code</h4>
+                    <h4>SunGold Sales Billing Management System</h4>
 
-                    <h5> HTML,CSS,Javascript </h5>
+                    <h5> Java </h5>
                     
                     <Link to="/project">More</Link>
 
@@ -53,9 +53,9 @@ function Home(){
 
                     <img src="about.png" alt="projects.png" height="200px"/>
 
-                    <h4>Web-based Attendance Management System using QR Code</h4>
+                    <h4>UDM Library Management System</h4>
 
-                    <h5> HTML,CSS,Javascript </h5>
+                    <h5> Java </h5>
 
                     <Link to="/project">More</Link>
 
@@ -66,9 +66,9 @@ function Home(){
 
                     <img src="about.png" alt="projects.png" height="200px"/>
 
-                    <h4>Web-based Attendance Management System using QR Code</h4>
+                    <h4>Inventory Management System</h4>
 
-                    <h5> HTML,CSS,Javascript </h5>
+                    <h5> Java </h5>
                     
                     <Link to="/project">More</Link>
 
