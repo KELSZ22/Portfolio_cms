@@ -4,11 +4,14 @@ function Resume() {
     
     return(
             <>
-            
+        <h1 className="resume-header"> Resume</h1>
+
         <div className="resume-container">
+
 
             <div className="first-column">
                 <img src="/michaelpogi.png" alt="michaelpogi.png" height="200px"/>
+                <br />
                 <label htmlFor="">Michael Z. Sabino</label>
                 
                 <div className="personal-details">

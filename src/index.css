@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -183,7 +184,7 @@ max-width: 100%;
 
 .home-about-container{
 max-width: 100%;
-margin: 200px 50px;
+margin: 150px 50px;
 height: 100%;
 padding: 20px;
 border-radius: 50px;
@@ -194,7 +195,7 @@ display: flex;
 align-items: center;
 flex-direction: column;
 gap: 50px;
-box-shadow: 5px 20px 50px 10px rgba(67, 0, 61, 0.373);
+box-shadow: 5px 20px 20px 5px rgba(67, 0, 61, 0.188);
 }
 
 .home-about-container p{
@@ -226,6 +227,7 @@ box-shadow: 5px 20px 50px 10px rgba(67, 0, 61, 0.373);
     justify-content: space-evenly;
     flex-direction: column;
     
+    
 
 }
 .projects-container h1{
@@ -241,9 +243,6 @@ box-shadow: 5px 20px 50px 10px rgba(67, 0, 61, 0.373);
     margin: 20px 0;
     justify-content: center;
     flex-wrap: wrap;
-    
-
-
 }
 
 .projects-container .projects-card{
@@ -260,6 +259,7 @@ box-shadow: 5px 20px 50px 10px rgba(67, 0, 61, 0.373);
     justify-content: center;
     flex-direction: column;
     row-gap: 10px;
+    box-shadow: 5px 20px 20px 5px rgba(67, 0, 61, 0.188);
 }
 .projects-container img{
     border-radius: 15px;
@@ -290,11 +290,11 @@ box-shadow: 5px 20px 50px 10px rgba(67, 0, 61, 0.373);
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: 5px 20px 50px 10px rgba(67, 0, 61, 0.373);
     background-image: url("/bg3.jpg") ; 
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 60px;
+    margin: 90px 60px;
+    box-shadow: 5px 20px 20px 5px rgba(67, 0, 61, 0.188);
   
 }
 
@@ -403,6 +403,14 @@ box-shadow: 5px 20px 50px 10px rgba(67, 0, 61, 0.373);
     padding: 5px 0;
 }
 
+ .resume-header{
+    font-size: 3em;
+    color: #2e003d;
+    font-weight: bold;
+    margin: 50px;
+    text-align: center;
+}
+
 
 .second-column{
     background-color: #FFE3D8;
@@ -428,6 +436,64 @@ box-shadow: 5px 20px 50px 10px rgba(67, 0, 61, 0.373);
 .second-column ul li{
 margin-left: 50px;
 font-size: 1.5em ;
+}
+
+.slider {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+.slider-text{
+    font-size: 1em;
+    color: #2e003d;
+    margin-bottom: 50px;
+    text-align: justify;
+    padding: 200px;
+    display: flex;
+    align-items: flex-start;
+}
+.image {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    
+}
+
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 530px;
+    font-size: 2rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 530px;
+    font-size: 2rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+
+.slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
 }
 
     
@@ -478,6 +544,7 @@ font-size: 1.5em ;
         height: 100%;
         background-color: rgba(41, 16, 74, 0.85);
         padding: 30%;
+        animation: grow 1s;
         
     }
 
@@ -496,7 +563,7 @@ font-size: 1.5em ;
         justify-content: center;
         align-items: center;
         background: rgb(41, 16, 74);
-         background: linear-gradient(0deg, rgba(41, 16, 74, 1) 44%, rgba(132, 81, 98, 1) 100%);
+        background: linear-gradient(0deg, rgba(41, 16, 74, 1) 44%, rgba(132, 81, 98, 1) 100%);
 
      }
 
@@ -530,12 +597,24 @@ font-size: 1.5em ;
         font-size: 1em;
     }
 
+    .home-about-container{
+        margin:50px 20px;
+    }
+
+    .projects-card-wrap{
+        margin: 0 20px;
+    }
+
     .contacts-input, .contacts-input input, .contacts-input button, .contacts-content iframe{
-        width: 200px;
+        width: 300px;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+    }
+
+    .contacts-container{
+        margin: 20px;
     }
     .socials img{
         width:35px;

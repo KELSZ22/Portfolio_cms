@@ -7,6 +7,7 @@ import Home from './Contents/Home.jsx'
 import Projects from './Contents/Projects.jsx'
 import { BrowserRouter as Router, Route, Routes,useLocation, HashRouter } from 'react-router-dom';
 import Resume from './Contents/Resume.jsx';
+import Contacts from './Contents/Contacts.jsx';
 
 
     
@@ -29,7 +30,7 @@ function App (){
       <Route path="/aboutme" exact element={<About />} />
       <Route path="/resume" exact element={<Resume />} />
       <Route path="/project" exact element={<Projects />} />
-      <Route path="/contact" exact element={<About />} />
+      <Route path="/contact" exact element={<Contacts />} />
     </Routes>
   </HashRouter>
 

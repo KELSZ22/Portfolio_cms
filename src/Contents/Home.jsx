@@ -24,7 +24,7 @@ function Home(){
 
                 <div className="projects-card">
 
-                    <img src="about.png" alt="projects.png" height="200px"/>
+                    <img src="/webbased.png" alt="projects.png" height="200px"/>
 
                     <h4>Web-based Attendance Management System using QR Code</h4>
 
@@ -37,9 +37,9 @@ function Home(){
 
                   <div className="projects-card">
 
-                    <img src="about.png" alt="projects.png" height="200px"/>
+                    <img src="/salesbilling.png" alt="projects.png" height="200px"/>
 
-                    <h4>SunGold Sales Billing Management System</h4>
+                    <h4>SunGold Sales and Billing Management System</h4>
 
                     <h5> Java </h5>
                     
@@ -51,7 +51,7 @@ function Home(){
 
                   <div className="projects-card">
 
-                    <img src="about.png" alt="projects.png" height="200px"/>
+                    <img src="/udm.png" alt="projects.png" height="200px"/>
 
                     <h4>UDM Library Management System</h4>
 
@@ -64,7 +64,7 @@ function Home(){
 
                   <div className="projects-card">
 
-                    <img src="about.png" alt="projects.png" height="200px"/>
+                    <img src="inventory.png" alt="projects.png" height="200px"/>
 
                     <h4>Inventory Management System</h4>
 
@@ -85,7 +85,7 @@ function Home(){
 
             <div>
 
-                <div className="contacts-container">
+            <div className="contacts-container">
                 <h1>Contacts</h1>
 
                 <div className="contacts-content">
@@ -94,10 +94,20 @@ function Home(){
                     <div className="contacts-input">
 
                             <div className="socials">
-                                <img src="/fb.png" alt="fb.png" height="50px"/>
-                                <img src="/ig.png" alt="ig.png" height="50px"/>
-                                <img src="/email.png" alt="email.png" height="50px"/>
-                                <img src="/tg.png" alt="tg.png" height="50px"/>
+                                <a href="https://www.facebook.com/michael.sabino.7146">
+                                    <img src="/fb.png" alt="fb.png" height="50px"/>
+                                </a>   
+                                <a href="https://www.instagram.com/kel_sz7/">
+                                    <img src="/ig.png" alt="ig.png" height="50px"/>
+                                </a>
+                                <a href="mailto:michaels635524@gmail.com" title="michaels6355@gmail.com">
+                                    <img src="/email.png" alt="email.png" height="50px"/>
+                                </a>
+
+                                <a href="" title="09358693624">
+                                    <img src="/tg.png" alt="tg.png" height="50px"/>
+                                </a>
+
                             </div>
     
                             <label htmlFor="">First Name:</label>
