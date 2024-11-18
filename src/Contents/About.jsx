@@ -8,7 +8,7 @@ function About(){
             <div className="home-about-container">
 
 
-                <label htmlFor="">About Me</label>
+                <label htmlFor="">About me</label>
                 
                  <img src="/about.png" alt="about.png" height="300px" width="300px"/>
 
