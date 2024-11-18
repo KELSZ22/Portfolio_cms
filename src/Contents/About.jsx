@@ -1,5 +1,5 @@
-import ImageSlider from '../PartialComponents/ImageSlider';
-import { SliderData } from '../PartialComponents/SliderData';
+// import ImageSlider from '../PartialComponents/ImageSlider';
+// import { SliderData } from '../PartialComponents/SliderData';
 function About(){
 
     return (
@@ -8,7 +8,7 @@ function About(){
             <div className="home-about-container">
 
 
-                <label htmlFor="">About me</label>
+                <label htmlFor="">About Me</label>
                 
                  <img src="/about.png" alt="about.png" height="300px" width="300px"/>
 
@@ -16,7 +16,7 @@ function About(){
 
             </div>
 
-             <ImageSlider slides={SliderData} />;
+             {/* <ImageSlider slides={SliderData} />; */}
 
         </div>
     )
