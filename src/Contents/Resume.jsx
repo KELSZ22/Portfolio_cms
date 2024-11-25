@@ -84,7 +84,7 @@ function Resume() {
                         Framework, Cordova, WordPress and React js)</li>
                     <li>Database (SQL, MariaDB and SQlite)</li>
 
-                    <li> Editing (Adobe Photoshop, Adobe Illustrator,Autodesk)</li>
+                    <li>Editing (Adobe Photoshop, Adobe Illustrator,Autodesk and Figma)</li>
                     <li>Time Management</li>
                     <li>Adaptability</li>
                 </ul>
@@ -95,7 +95,7 @@ function Resume() {
                 <p><a href="https://drive.google.com/file/d/1PPe6mGbWgYFXYGVHMySRevQ4ajcX_jVI/view" target="_blank">TESDA Developing Designs for User Interface (2024)</a> 
                 </p>
                 <p><a href="https://drive.google.com/file/d/10mHEXIuHHn4_pHAzfVwFGEfEocv6XNf7/view" target="_blank">TESDA Developing Designs for User Experience (2024)</a>
-
+                <p><a href="https://drive.google.com/file/d/16CozmRDm6Uv8J9VgvhtmumSEhdxu3IcQ/view" target="_blank">Frontend Fundamentals Bootcamp</a></p>
 </p>
 
 
