@@ -94,9 +94,9 @@ function Resume() {
                 <p><a href="https://drive.google.com/file/d/17FtjcdJMLRzvIXOoW84tvYfH_sBIZV3s/view" target="_blank">TESDA NC III Java Programming (2023)</a></p>
                 <p><a href="https://drive.google.com/file/d/1PPe6mGbWgYFXYGVHMySRevQ4ajcX_jVI/view" target="_blank">TESDA Developing Designs for User Interface (2024)</a> 
                 </p>
-                <p><a href="https://drive.google.com/file/d/10mHEXIuHHn4_pHAzfVwFGEfEocv6XNf7/view" target="_blank">TESDA Developing Designs for User Experience (2024)</a>
+                <p><a href="https://drive.google.com/file/d/10mHEXIuHHn4_pHAzfVwFGEfEocv6XNf7/view" target="_blank">TESDA Developing Designs for User Experience (2024)</a></p>
+                
                 <p><a href="https://drive.google.com/file/d/16CozmRDm6Uv8J9VgvhtmumSEhdxu3IcQ/view" target="_blank">Frontend Fundamentals Bootcamp</a></p>
-</p>
 
 
   
