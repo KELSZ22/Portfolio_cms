@@ -13,23 +13,25 @@ function Home(){
         <div className="skills-wrap">
                     <div className="web-skills">
     
-                        <label htmlFor="">Web App</label>
+                        <label htmlFor="">Web Development</label>
     
                         <div class="webskills-img">
         
-                            <img src="/skills-images/html.png" alt="html.png" />
+                            <img src="/skills-images/html.png" alt="html.png" title="HTML"/>
         
-                            <img src="/skills-images/css.png" alt="css.png" />
+                            <img src="/skills-images/css.png" alt="css.png"  title="CSS"/>
         
-                            <img src="/skills-images/js.png" alt="js.png" />
+                            <img src="/skills-images/js.png" alt="js.png" title="Javascript"/>
         
-                            <img src="/skills-images/react.png" alt="react.png" />
+                            <img src="/skills-images/react.png" alt="react.png" title="React JS"/>
+
+                            <img src="/skills-images/tailwind.png" alt="tailwind.png" title="Tailwind CSS"/>
         
-                            <img src="/skills-images/laravel.png" alt="laravel.png" />
+                            <img src="/skills-images/laravel.png" alt="laravel.png" title="Laravel"/>
         
-                            <img src="/skills-images/wordpress.png" alt="wordpress.png" />
+                            <img src="/skills-images/wordpress.png" alt="wordpress.png" title="Wordpress"/>
         
-                            <img src="/skills-images/cordova.png" alt="cordova.png" />
+                            <img src="/skills-images/cordova.png" alt="cordova.png" title="Cordova"/>
         
                          </div>
     
@@ -43,13 +45,13 @@ function Home(){
     
                         <div class="webskills-img">
     
-                            <img src="/skills-images/java.png" alt="java.png" />
+                            <img src="/skills-images/java.png" alt="java.png" title="Java"/>
     
-                            <img src="/skills-images/php.png" alt="php.png" />
+                            <img src="/skills-images/php.png" alt="php.png" title="PHP"/>
     
-                            <img src="/skills-images/cplus.png" alt="cplus.png" />
+                            <img src="/skills-images/cplus.png" alt="cplus.png" title="C++"/>
     
-                            <img src="/skills-images/python.png" alt="python.png" />
+                            <img src="/skills-images/python.png" alt="python.png" title="Python"/>
     
                             
                             
@@ -62,11 +64,11 @@ function Home(){
                             <div className="webskills-img">
 
         
-                                <img src="/skills-images/mysql.png" alt="mysql.png" />
+                                <img src="/skills-images/mysql.png" alt="mysql.png" title="MySql" />
         
-                                <img src="/skills-images/mariadb.png" alt="mariadb.png" />
+                                <img src="/skills-images/mariadb.png" alt="mariadb.png" title="MariaDB"/>
         
-                                <img src="/skills-images/sqlite.png" alt="sqlite.png" />
+                                <img src="/skills-images/sqlite.png" alt="sqlite.png" title="SQLite"/>
                             </div>
     
     
@@ -76,17 +78,17 @@ function Home(){
     
                         <div className="web-skills">
     
-                        <label htmlFor="">Designs/Editing</label>
+                        <label htmlFor="">Designs</label>
     
                         <div class="webskills-img">
     
-                            <img src="/skills-images/ps.png" alt="ps.png" />
+                            <img src="/skills-images/ps.png" alt="ps.png" title="Photoshop"/>
     
-                            <img src="/skills-images/ai.png" alt="ai.png" />
+                            <img src="/skills-images/ai.png" alt="ai.png" title="Adobe Illustrator"/>
     
-                            <img src="/skills-images/figma.png" alt="figma.png" />
+                            <img src="/skills-images/figma.png" alt="figma.png" title="Figma"/>
     
-                            <img src="/skills-images/autodesk.png" alt="autodesk.png" />
+                            <img src="/skills-images/autodesk.png" alt="autodesk.png" title="Autodesk Sketchbook"/>
     
                         </div>
     
@@ -157,19 +159,18 @@ function Home(){
 
 
                 </div>
+            <div className="projects-card">
 
-                  <div className="projects-card">
+                <img src="/myportfolio1.png" alt="projects.png" height="200px"/>
 
-                    <img src="inventory.png" alt="projects.png" height="200px"/>
+                <h4>My Portfolio</h4>
 
-                    <h4>Inventory Management System</h4>
-
-                    <h5> Java </h5>
-                    
-                    <Link to="/project">More</Link>
+                <h5> HTML, CSS, Javascript </h5>
+                <a href="https://kelsz22.github.io/My_Portfolio/?fbclid=IwY2xjawHGcV1leHRuA2FlbQIxMAABHaBSP2ilfuXb0sgglEx-Tjg2UbEMY21xq8KxdCJHlxOgDtfzVDfURhwW8g_aem__8FO_PwoYeT0DWarNCquFA" target="_blank"> MyPortfolio</a>
+                <Link to="/project">More</Link>
 
 
-                </div>
+            </div>
 
             </div>
 

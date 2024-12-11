@@ -96,7 +96,7 @@ function Resume() {
                 </p>
                 <p><a href="https://drive.google.com/file/d/10mHEXIuHHn4_pHAzfVwFGEfEocv6XNf7/view" target="_blank">TESDA Developing Designs for User Experience (2024)</a></p>
                 
-                <p><a href="https://drive.google.com/file/d/16CozmRDm6Uv8J9VgvhtmumSEhdxu3IcQ/view" target="_blank">Frontend Fundamentals Bootcamp</a></p>
+                <p><a href="https://drive.google.com/file/d/16CozmRDm6Uv8J9VgvhtmumSEhdxu3IcQ/view" target="_blank">Frontend Fundamentals Bootcamp (2024)</a></p>
 
 
   
