@@ -1,5 +1,3 @@
-// import ImageSlider from '../PartialComponents/ImageSlider';
-// import { SliderData } from '../PartialComponents/SliderData';
 function About(){
 
     return (
@@ -16,7 +14,9 @@ function About(){
 
             </div>
 
-             {/* <ImageSlider slides={SliderData} />; */}
+
+       
+
 
         </div>
     )

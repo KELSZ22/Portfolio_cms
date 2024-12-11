@@ -80,9 +80,9 @@ function Resume() {
                 <label htmlFor="">Skills</label>
                 <ul>
                     <li>Programming languages (Java,Python, PHP and C++)</li>
-                    <li>Web Development (HTML, CSS, Javascript, Laravel
+                    <li>Web Development (HTML, CSS, Tailwind CSS, Javascript, Laravel
                         Framework, Cordova, WordPress and React js)</li>
-                    <li>Database (SQL, MariaDB and SQlite)</li>
+                    <li>Database (MySQL, MariaDB and SQlite)</li>
 
                     <li>Editing (Adobe Photoshop, Adobe Illustrator,Autodesk and Figma)</li>
                     <li>Time Management</li>

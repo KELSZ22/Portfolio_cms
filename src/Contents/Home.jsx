@@ -3,6 +3,102 @@ function Home(){
 
     return (
         <div>
+            
+          
+
+            <div className="skills-container">
+
+                <label htmlFor="">Skills</label>
+
+        <div className="skills-wrap">
+                    <div className="web-skills">
+    
+                        <label htmlFor="">Web App</label>
+    
+                        <div class="webskills-img">
+        
+                            <img src="/skills-images/html.png" alt="html.png" />
+        
+                            <img src="/skills-images/css.png" alt="css.png" />
+        
+                            <img src="/skills-images/js.png" alt="js.png" />
+        
+                            <img src="/skills-images/react.png" alt="react.png" />
+        
+                            <img src="/skills-images/laravel.png" alt="laravel.png" />
+        
+                            <img src="/skills-images/wordpress.png" alt="wordpress.png" />
+        
+                            <img src="/skills-images/cordova.png" alt="cordova.png" />
+        
+                         </div>
+    
+                        
+                         </div>
+    
+    
+                        <div className="web-skills">
+    
+                        <label htmlFor="">Programming Languages</label>
+    
+                        <div class="webskills-img">
+    
+                            <img src="/skills-images/java.png" alt="java.png" />
+    
+                            <img src="/skills-images/php.png" alt="php.png" />
+    
+                            <img src="/skills-images/cplus.png" alt="cplus.png" />
+    
+                            <img src="/skills-images/python.png" alt="python.png" />
+    
+                            
+                            
+
+                        </div>
+
+
+                            <label htmlFor="">Database</label>
+
+                            <div className="webskills-img">
+
+        
+                                <img src="/skills-images/mysql.png" alt="mysql.png" />
+        
+                                <img src="/skills-images/mariadb.png" alt="mariadb.png" />
+        
+                                <img src="/skills-images/sqlite.png" alt="sqlite.png" />
+                            </div>
+    
+    
+    
+                        </div>
+    
+    
+                        <div className="web-skills">
+    
+                        <label htmlFor="">Designs/Editing</label>
+    
+                        <div class="webskills-img">
+    
+                            <img src="/skills-images/ps.png" alt="ps.png" />
+    
+                            <img src="/skills-images/ai.png" alt="ai.png" />
+    
+                            <img src="/skills-images/figma.png" alt="figma.png" />
+    
+                            <img src="/skills-images/autodesk.png" alt="autodesk.png" />
+    
+                        </div>
+    
+    
+                        </div>
+    
+
+    
+                    </div>
+                </div>
+
+
             <div className="home-about-container">
 
 
