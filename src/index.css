@@ -587,6 +587,10 @@ font-size: 1.5em ;
 @media only screen and (max-width: 550px) {
 
 
+    .footer-links{
+        padding: 10px;
+    }
+
     .navbar{
 
     background: rgb(41, 16, 74);
