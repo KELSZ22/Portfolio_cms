@@ -38,8 +38,12 @@ function Navbar() {
       <li><Link to="/aboutme">About Me</Link></li>
       <li ><Link to="/resume">Resume</Link></li>
       <li ><Link to="/project">Projects</Link></li>
+<<<<<<< HEAD
       <li ><Link to="/contact">Contacts</Link></li>
       <li><img src="/dark.png " alt="dark.png" id="dmode" onClick={toggleDarkMode }/></li>
+=======
+      <li ><Link to="/contact">Contact</Link></li>
+>>>>>>> d71352fcfd65c8a3ec2903572f5e8219aa5b1773
       </div>
 
 

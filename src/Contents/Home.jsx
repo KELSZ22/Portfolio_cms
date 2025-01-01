@@ -3,7 +3,109 @@ function Home(){
 
     return (
         <div>
+<<<<<<< HEAD
             <div className="home-about-container fade">
+=======
+            
+          
+
+            <div className="skills-container">
+
+                <label htmlFor="">Skills</label>
+
+        <div className="skills-wrap">
+                    <div className="web-skills">
+    
+                        <label htmlFor="">Web Development</label>
+    
+                        <div class="webskills-img">
+        
+                            <img src="/skills-images/html.png" alt="html.png" title="HTML"/>
+        
+                            <img src="/skills-images/css.png" alt="css.png"  title="CSS"/>
+        
+                            <img src="/skills-images/js.png" alt="js.png" title="Javascript"/>
+        
+                            <img src="/skills-images/react.png" alt="react.png" title="React JS"/>
+
+                            <img src="/skills-images/tailwind.png" alt="tailwind.png" title="Tailwind CSS"/>
+        
+                            <img src="/skills-images/laravel.png" alt="laravel.png" title="Laravel"/>
+        
+                            <img src="/skills-images/wordpress.png" alt="wordpress.png" title="Wordpress"/>
+        
+                            <img src="/skills-images/cordova.png" alt="cordova.png" title="Cordova"/>
+        
+                         </div>
+    
+                        
+                         </div>
+    
+    
+                        <div className="web-skills">
+    
+                        <label htmlFor="">Programming Languages</label>
+    
+                        <div class="webskills-img">
+    
+                            <img src="/skills-images/java.png" alt="java.png" title="Java"/>
+    
+                            <img src="/skills-images/php.png" alt="php.png" title="PHP"/>
+    
+                            <img src="/skills-images/cplus.png" alt="cplus.png" title="C++"/>
+    
+                            <img src="/skills-images/python.png" alt="python.png" title="Python"/>
+    
+                            
+                            
+
+                        </div>
+
+
+                            <label htmlFor="">Database</label>
+
+                            <div className="webskills-img">
+
+        
+                                <img src="/skills-images/mysql.png" alt="mysql.png" title="MySql" />
+        
+                                <img src="/skills-images/mariadb.png" alt="mariadb.png" title="MariaDB"/>
+        
+                                <img src="/skills-images/sqlite.png" alt="sqlite.png" title="SQLite"/>
+                            </div>
+    
+    
+    
+                        </div>
+    
+    
+                        <div className="web-skills">
+    
+                        <label htmlFor="">Designs</label>
+    
+                        <div class="webskills-img">
+    
+                            <img src="/skills-images/ps.png" alt="ps.png" title="Photoshop"/>
+    
+                            <img src="/skills-images/ai.png" alt="ai.png" title="Adobe Illustrator"/>
+    
+                            <img src="/skills-images/figma.png" alt="figma.png" title="Figma"/>
+    
+                            <img src="/skills-images/autodesk.png" alt="autodesk.png" title="Autodesk Sketchbook"/>
+    
+                        </div>
+    
+    
+                        </div>
+    
+
+    
+                    </div>
+                </div>
+
+
+            <div className="home-about-container">
+>>>>>>> d71352fcfd65c8a3ec2903572f5e8219aa5b1773
 
 
                 <label htmlFor="" >About Me</label>
@@ -62,19 +164,26 @@ function Home(){
 
 
                 </div>
+            <div className="projects-card">
 
-                  <div className="projects-card">
+                <img src="/myportfolio1.png" alt="projects.png" height="200px"/>
 
-                    <img src="inventory.png" alt="projects.png" height="200px"/>
+                <h4>My Portfolio</h4>
 
+<<<<<<< HEAD
                     <h4>Inventory Management System</h4>
 
                     <h5> Java </h5>
                     
                     <a><Link to="/project">More</Link></a>
+=======
+                <h5> HTML, CSS, Javascript </h5>
+                <a href="https://kelsz22.github.io/My_Portfolio/?fbclid=IwY2xjawHGcV1leHRuA2FlbQIxMAABHaBSP2ilfuXb0sgglEx-Tjg2UbEMY21xq8KxdCJHlxOgDtfzVDfURhwW8g_aem__8FO_PwoYeT0DWarNCquFA" target="_blank"> MyPortfolio</a>
+                <Link to="/project">More</Link>
+>>>>>>> d71352fcfd65c8a3ec2903572f5e8219aa5b1773
 
 
-                </div>
+            </div>
 
             </div>
 
