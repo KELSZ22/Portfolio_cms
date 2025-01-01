@@ -1,5 +1,4 @@
-// import ImageSlider from '../PartialComponents/ImageSlider';
-// import { SliderData } from '../PartialComponents/SliderData';
+
 function About(){
 
     return (

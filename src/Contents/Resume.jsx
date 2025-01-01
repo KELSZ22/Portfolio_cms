@@ -81,8 +81,8 @@ function Resume() {
                 <ul>
                     <li>Programming languages (Java,Python, PHP and C++)</li>
                     <li>Web Development (HTML, CSS, Javascript, Laravel
-                        Framework, Cordova, WordPress and React js)</li>
-                    <li>Database (SQL, MariaDB and SQlite)</li>
+                        Framework, Cordova, WordPress, Node js and React js)</li>
+                    <li>Database (SQL, MariaDB, MongoDB and SQlite)</li>
 
                     <li>Editing (Adobe Photoshop, Adobe Illustrator,Autodesk and Figma)</li>
                     <li>Time Management</li>
@@ -96,7 +96,8 @@ function Resume() {
                 </p>
                 <p><a href="https://drive.google.com/file/d/10mHEXIuHHn4_pHAzfVwFGEfEocv6XNf7/view" target="_blank">TESDA Developing Designs for User Experience (2024)</a></p>
                 
-                <p><a href="https://drive.google.com/file/d/16CozmRDm6Uv8J9VgvhtmumSEhdxu3IcQ/view" target="_blank">Frontend Fundamentals Bootcamp</a></p>
+                <p><a href="https://drive.google.com/file/d/16CozmRDm6Uv8J9VgvhtmumSEhdxu3IcQ/view" target="_blank">Frontend Fundamentals Bootcamp (2024)</a></p>
+                <p><a href="https://drive.google.com/file/d/16CozmRDm6Uv8J9VgvhtmumSEhdxu3IcQ/view" target="_blank">Data Analytics Fundamentals Bootcamp (2024)</a></p>
 
 
   

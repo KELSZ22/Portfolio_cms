@@ -3,20 +3,20 @@ function Home(){
 
     return (
         <div>
-            <div className="home-about-container">
+            <div className="home-about-container fade">
 
 
-                <label htmlFor="">About Me</label>
+                <label htmlFor="" >About Me</label>
                 
                  <img src="/about.png" alt="about.png" height="300px" width="300px"/>
 
-                <p>I'm Michael Z. Sabino, a recent computer engineering bachelor's degree graduate, has a strong interest in software development and programming.  I have experience as a full-stack developer from my recent OJT, having worked on a variety of projects utilizing HTML,CSS, Javascript, Java,PHP, Laravel, and other. With  dedication to problem-solving and dedication, I'm looking forward to contribute new ideas and creativity to the tech field.</p>
+                <p>I'm Michael Z. Sabino, a recent computer engineering bachelor's degree graduate, has a strong interest in software development and programming.  I have experience as a full-stack developer from my recent OJT, having worked on a variety of projects utilizing HTML,CSS, Javascript, Java,PHP, Laravel, and other. With dedication to problem-solving , I'm looking forward to contribute new ideas and creativity to the tech field.</p>
 
             </div>
 
 
 
-            <div className="projects-container">
+            <div className="projects-container fade">
 
              <h1> Projects</h1>
 
@@ -31,7 +31,8 @@ function Home(){
                     <h5> HTML,CSS,Javascript </h5>
 
 
-                    <Link to="/project">More</Link>
+                    <a><Link to="/project">More</Link></a>
+
 
                 </div>
 
@@ -43,7 +44,7 @@ function Home(){
 
                     <h5> Java </h5>
                     
-                    <Link to="/project">More</Link>
+                   <a> <Link to="/project">More</Link></a>
 
             
 
@@ -57,7 +58,7 @@ function Home(){
 
                     <h5> Java </h5>
 
-                    <Link to="/project">More</Link>
+                   <a> <Link to="/project">More</Link></a>
 
 
                 </div>
@@ -70,7 +71,7 @@ function Home(){
 
                     <h5> Java </h5>
                     
-                    <Link to="/project">More</Link>
+                    <a><Link to="/project">More</Link></a>
 
 
                 </div>
@@ -85,7 +86,7 @@ function Home(){
 
             <div>
 
-            <div className="contacts-container">
+            <div className="contacts-container fade ">
                 <h1>Contacts</h1>
 
                 <div className="contacts-content">
