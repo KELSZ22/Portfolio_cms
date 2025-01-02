@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> d71352fcfd65c8a3ec2903572f5e8219aa5b1773
 function About(){
 
     return (

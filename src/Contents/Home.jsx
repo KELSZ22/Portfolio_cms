@@ -3,13 +3,11 @@ function Home(){
 
     return (
         <div>
-<<<<<<< HEAD
-            <div className="home-about-container fade">
-=======
-            
-          
 
-            <div className="skills-container">
+
+
+
+            <div className="skills-container fade">
 
                 <label htmlFor="">Skills</label>
 
@@ -72,6 +70,8 @@ function Home(){
                                 <img src="/skills-images/mariadb.png" alt="mariadb.png" title="MariaDB"/>
         
                                 <img src="/skills-images/sqlite.png" alt="sqlite.png" title="SQLite"/>
+
+                                <img src="/skills-images/mongo.png" alt="mongo.png" title="MongoDb"/>
                             </div>
     
     
@@ -104,8 +104,8 @@ function Home(){
                 </div>
 
 
-            <div className="home-about-container">
->>>>>>> d71352fcfd65c8a3ec2903572f5e8219aa5b1773
+
+            <div className="home-about-container fade">
 
 
                 <label htmlFor="" >About Me</label>
@@ -170,17 +170,11 @@ function Home(){
 
                 <h4>My Portfolio</h4>
 
-<<<<<<< HEAD
                     <h4>Inventory Management System</h4>
 
                     <h5> Java </h5>
                     
                     <a><Link to="/project">More</Link></a>
-=======
-                <h5> HTML, CSS, Javascript </h5>
-                <a href="https://kelsz22.github.io/My_Portfolio/?fbclid=IwY2xjawHGcV1leHRuA2FlbQIxMAABHaBSP2ilfuXb0sgglEx-Tjg2UbEMY21xq8KxdCJHlxOgDtfzVDfURhwW8g_aem__8FO_PwoYeT0DWarNCquFA" target="_blank"> MyPortfolio</a>
-                <Link to="/project">More</Link>
->>>>>>> d71352fcfd65c8a3ec2903572f5e8219aa5b1773
 
 
             </div>
@@ -193,10 +187,10 @@ function Home(){
             </div>
 
 
-            <div>
+            <div className="cont">
 
             <div className="contacts-container fade ">
-                <h1>Contacts</h1>
+                <h1 className="tacts">Contacts</h1>
 
                 <div className="contacts-content">
                     <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d965.2050919574647!2d120.9630736695074!3d14.609306596862266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ca74b8504f5f%3A0x629564a516e4eb37!2s1319%20Abad%20Santos%20St%2C%20Tondo%2C%20Manila%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1731127033583!5m2!1sen!2sph"  width="500" height="400px"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Address"></iframe></p>
